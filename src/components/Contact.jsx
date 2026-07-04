@@ -69,7 +69,7 @@ export default function Contact() {
             <label>Your Name</label>
             <input
               type="text"
-              placeholder="John Doe"
+              placeholder="Abhishek"
               value={form.name}
               onChange={update("name")}
               className="form-input"
@@ -79,7 +79,7 @@ export default function Contact() {
             <label>Email Address</label>
             <input
               type="email"
-              placeholder="john@example.com"
+              placeholder="abhishek@example.com"
               value={form.email}
               onChange={update("email")}
               className="form-input"
